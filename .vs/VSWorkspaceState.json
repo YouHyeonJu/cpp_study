@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\study1",
+    "\\study1\\study1"
   ],
+  "SelectedNode": "\\study1\\study1\\ArrayNewDelete.cpp",
   "PreviewInSolutionExplorer": false
 }
