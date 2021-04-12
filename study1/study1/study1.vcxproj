@@ -172,10 +172,14 @@
     <ClCompile Include="Q2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Q3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Q5.cpp" />
+=======
+    <ClCompile Include="Q4.cpp" />
+>>>>>>> 030ec80ea97644d85b5aea1c553cf2c0ea46b6b7
     <ClCompile Include="RangeBasedfor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
