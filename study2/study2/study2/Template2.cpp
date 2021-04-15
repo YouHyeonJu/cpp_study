@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdio>
+
 using namespace std;
 template <typename T>
 T Add(T a,T b) {
@@ -8,4 +10,5 @@ T Add(T a,T b) {
 int main() {
 	cout << Add(3, 4) << endl;
 	cout << Add(3.3,4.4) << endl;
+
 }
