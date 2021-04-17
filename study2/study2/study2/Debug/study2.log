@@ -1,4 +1,2 @@
-﻿  Seq2.cpp
-D:\cpp\cpp_study\study2\study2\study2\Seq2.cpp(10,16): error C2872: 'nData': 모호한 기호입니다.
-D:\cpp\cpp_study\study2\study2\study2\Seq2.cpp(3,5): message : 'int nData'일 수 있습니다.
-D:\cpp\cpp_study\study2\study2\study2\Seq2.cpp(6,6): message : 또는       'int TEST::nData'
+﻿  stap2Q1.cpp
+  study2.vcxproj -> D:\cpp\cpp_study\study2\study2\Debug\study2.exe
