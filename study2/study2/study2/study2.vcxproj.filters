@@ -42,5 +42,11 @@
     <ClCompile Include="namespace.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="IdSearchSeq2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Seq2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
