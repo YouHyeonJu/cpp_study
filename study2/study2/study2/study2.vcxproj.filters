@@ -54,5 +54,8 @@
     <ClCompile Include="line.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,3 +1,2 @@
-﻿  line.c
-stap2Q1.obj : error LNK2005: _main이(가) line.obj에 이미 정의되어 있습니다.
-D:\cpp\cpp_study\study2\study2\Debug\study2.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+﻿  class.cpp
+  study2.vcxproj -> D:\cpp\cpp_study\study2\study2\Debug\study2.exe
