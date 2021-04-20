@@ -3,19 +3,19 @@ using namespace std;
 class CTest {
 	int m_nData;
 public:
-	CTest(int nParam) : m_nData(nParam)
+	CTest()
 	{
 		cout << "CTest()" << endl;
 	}
 	~CTest() {
-		cout << "~CTest()" << m_nData << endl;
+		cout << "~CTest()"<< endl;
 	}
 };
 int main() {
 	cout << "Begin" << endl;
-	CTest a(1);
-	cout << "Before b" << endl;
-	CTest b(2);
+	CTest* pData = new CTest[3];
+	cout << "Hi" << endl;
+	delete [] pData;
 	cout << "End" << endl;
 
 }
