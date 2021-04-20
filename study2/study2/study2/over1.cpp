@@ -1,21 +1,22 @@
 #include <iostream>
 using namespace std;
-class CRefTest {
+class CMyData {
 public:
-	CRefTest(int& rParam) : m_nData(rParam) {
+	CMyData(int nParam) : m_nData(nParam) {
 
 	};
-	int GetData(void) {
-		return m_nData;
-	}
+	CMyData(int x, int y) : m_nData(x + y) {
+
+	};
+	int GetData(void) { return m_nData; }
 private:
-	int& m_nData;
+	int m_nData;
 };
 int main() {
-	int a = 10;
-	CRefTest t(a);
-	cout << t.GetData() << endl;
-	a = 20;
-	cout << t.GetData() << endl;
+	int a = 10,b=20;
+	CMyData acc(a);
+	CMyData bcc(a,b);
+	cout << acc.GetData() << endl;
+	cout << bcc.GetData() << endl;
 	return 0;
 }
