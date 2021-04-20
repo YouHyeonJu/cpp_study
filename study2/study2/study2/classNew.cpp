@@ -15,7 +15,7 @@ int main() {
 	cout << "Begin" << endl;
 	CTest* pData = new CTest[3];
 	cout << "Hi" << endl;
-	delete [] pData;
+	delete pData;
 	cout << "End" << endl;
 
 }
